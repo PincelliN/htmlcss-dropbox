@@ -67,9 +67,10 @@ width: 110%;
 }
 /* MAIN */
 /* SUBSCRIPTIONS */
-main> section{
+main> section,
+.start-use{
    max-width: 1000px;
-   margin: 30px auto;  
+   margin: 5% auto;  
 }
 .subscriptions h3{
     font-size: 30px;
@@ -187,7 +188,6 @@ hr{
  /* Partnership */
  .partnership{
     display: flex;
-    border: 1px solid black;
  }
  .partnership>div{
     width: 30%;
@@ -227,6 +227,44 @@ hr{
 }
 .operation-card>img{
     width: 100%;
+}
+/* partner-team */
+.partner-team>*{
+    margin-bottom: 20px;
+}
+.partner-team>h2{
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+/* Start-use */
+.start-use-box{
+    background-color: violet;
+}
+.start-use{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.start-use h2,
+.start-use .button{
+    margin: 50px 0;
+}
+.start-use .button{
+    align-self: baseline;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.start-use h2{
+    width: 300px;
 }
 
 

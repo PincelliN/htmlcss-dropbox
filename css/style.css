@@ -51,3 +51,32 @@ a {
 .jumbotron .fa-arrow-down{
     font-size: xx-large;
 }
+/*  footer */
+footer{
+    background-color: black;
+     padding: 5% 15%;
+     color: white;
+}
+/*  list help */
+.help{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.help .subjects{
+    font-size: larger;
+    font-weight: bolder;
+}
+.help li{
+    margin: 10px;
+}
+.help a{
+    color: white;
+}
+/*  translate */
+  
+.traslate span{
+    border-top: 1px solid white;
+    padding: 30px 20px;   
+    color: gray;
+}

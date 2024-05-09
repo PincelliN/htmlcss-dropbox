@@ -210,6 +210,26 @@ hr{
     color: black;
 }
 
+/* Operation */
+.operation h3{
+    font-size: xx-large;
+}
+.operation-box{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+}
+.operation-card{
+    flex-basis: calc((100% / 3) - 20px);
+}
+.operation-card>*{
+    margin-bottom: 10px;
+}
+.operation-card>img{
+    width: 100%;
+}
+
+
 
 
 

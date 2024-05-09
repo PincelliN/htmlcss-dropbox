@@ -51,6 +51,53 @@ a {
 .jumbotron .fa-arrow-down{
     font-size: xx-large;
 }
+/* MAIN */
+/* SUBSCRIPTIONS */
+.type-of-subscriptions{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  footer */
 footer{
     background-color: black;

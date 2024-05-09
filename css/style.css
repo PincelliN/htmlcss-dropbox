@@ -67,10 +67,9 @@ width: 110%;
 }
 /* MAIN */
 /* SUBSCRIPTIONS */
-.subscriptions{
+main> section{
    max-width: 1000px;
-   margin: 30px auto;
-    
+   margin: 30px auto;  
 }
 .subscriptions h3{
     font-size: 30px;
@@ -184,6 +183,31 @@ hr{
 }
 .last-subscriptions .button{
     margin-left: 180px;
+}
+ /* Partnership */
+ .partnership{
+    display: flex;
+    border: 1px solid black;
+ }
+ .partnership>div{
+    width: 30%;
+ }
+ .partnership >.partnership-img{
+    width: 55%;
+ }
+.partnership-img>img{
+    width: 100%;
+}
+.partnership-text{
+    padding: 40px 20px;
+}
+.partnership-text>*{
+    margin-bottom: 20px;
+}
+.partnership-text >.button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
 }
 
 

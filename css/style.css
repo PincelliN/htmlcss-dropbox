@@ -31,3 +31,23 @@ a {
     display: inline-block;
     margin-right: 10px;
 }
+/* jumbotron */
+.jumbotron{
+    background-color: aquamarine;
+    padding: 5% 15% 0 15%;
+}
+.jumbotron h1{
+    text-align: start;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.jumbotron img{
+    float: right;
+    width: 50%;
+}
+.jumbotron section{
+    margin-top: 30px;
+}
+.jumbotron .fa-arrow-down{
+    font-size: xx-large;
+}

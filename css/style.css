@@ -238,6 +238,62 @@ hr{
 
 
 
+/* partner logo */
+.logo-partner{
+    display: flex;
+}
+.logo-partner>section{
+    width: calc(100% / 3);
+}
+.logo-img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-img>img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

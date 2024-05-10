@@ -247,15 +247,19 @@ h6>hr{
 .logo-img>div{
      padding:40px;
     text-align: center;
-    
+     display: flex;
+    justify-content: center;
+    align-items: center;
     color:white;
-        width: 50%; 
+    width: 50%; 
      height: 50%;  
 }
- .logo-img svg{
+.logo-partner  img {
+    padding: 30px;
     width: 100%;
-    height: 100%;  
-} 
+    filter: invert(1);  
+}
+/*  colonna in mezzo della sezione logo */
 .logo-description{
     margin: 10px auto;
     padding: 15px;
@@ -263,11 +267,17 @@ h6>hr{
 .logo-description>*{
     margin-bottom: 30px;
 }
-.logo-description>img{
+.logo-description>.logo-description-img{
     width: 40%;
+    filter: none;
+    padding: 0;
 }
 .logo-description>hr{
     width: 90px;
+}
+.logo-description>p{
+    height: 200px;
+    overflow-y: scroll;
 }
 /*  style svg */
 .asu{

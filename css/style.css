@@ -65,6 +65,15 @@ width: 110%;
 .jumbotron .fa-arrow-down{
     font-size: 60px;
 }
+
+
+
+
+
+
+
+
+
 /* MAIN */
 /* SUBSCRIPTIONS */
 main> section,
@@ -79,6 +88,18 @@ main> section,
 .subscriptions .type-of-subscriptions{
  margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* TABEL */
 .type-of-subscriptions{
@@ -100,59 +121,61 @@ h6>hr{
     margin-top: 5px;
     margin: left 0; ;
 }
-/* liste parte alta main */
 .type-of-subscriptions ul{
    margin: 0 auto;
    padding: 10px;
-    position: relative; 
-}
-.start-tos,
-.main-tos,
-.footer-tos,
-.highlights li{
-     margin: 0 auto;
-     margin-bottom: 30px;
+}           
+.subscriptions-list>*{
+    margin: 20px auto;
 }
 
-/* start tos */
 .experience{
     font-size: larger;
-    font-weight: bolder;
-    
+    font-weight: bolder;   
 }
 .money{
     font-size: small;
     font-weight: bolder;
-    margin: 10px auto;
 }
 .duration{
     font-size: small;
     color: grey;
 }
-/* main tos */
-.main-tos li,
-.footer-tos li,
-.highlights li{
-    margin: 10px auto;
+.list-flex{
+    display: flex;
+    align-items: flex-start;
 }
-/* footer tos */
 .center-botton{
     text-align: center;
-}
- .footer-tos .button{
-    padding: 3px 54px;
 } 
 .blue-link{
     color: blue;
     text-decoration: underline;
 }
-hr{
-    width:100px;
-}
-/* highlights */
 .fa-check{
     color: blue;
 }
+.half-row{
+    margin: auto 0;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  LAST SUBSCRIPTION */
 .last-subscriptions{

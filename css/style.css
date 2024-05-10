@@ -277,56 +277,14 @@ h6>hr{
 .to{
     background-color: rgb(255, 28, 28);
 }
-.uf{
+.logo-img>.uf{
     background-color: rgb(0, 147, 206);
-    
+    padding: 29px;
 }
+
 .wbr{
     background-color: rgb(213, 0, 31);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Start-use */
@@ -340,7 +298,6 @@ h6>hr{
      margin: 0 auto;
     max-width: 1000px;
 }
-
 .start-use h2,
 .start-use .button{
     margin: 50px 0;
@@ -354,21 +311,18 @@ h6>hr{
 .start-use h2{
     width: 300px;
 }
-
-
-
 /* FAQ */
-.faq>*{
+ .faq>h3{
     margin: 30px 0;
-}
+} 
 .faq-question{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    height: 70px;
+    align-items: center; 
     border-top: 1px solid gray;
 }
 .faq-question:last-child{
-    padding-bottom: 50px;
     border-bottom: 1px solid grey;
 }
 

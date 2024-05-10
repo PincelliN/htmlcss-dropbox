@@ -249,7 +249,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
 }
-.logo-img>img{
+.logo-img>svg{
     max-width: 50%;
     max-height: 50%;
 }

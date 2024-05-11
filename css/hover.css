@@ -27,10 +27,18 @@ color: black;
    
 }
 
-.logo-img div:hover {
-
-  filter: opacity(.5);
+.logo-img> div:hover{
+ border: 10px solid rgb(255, 255, 255, 0.4);
 }
+
+
+/* .logo-img img{
+  background-color: violet;
+}
+ */
+
+
+
 /* FAQ animation */
 .fa-chevron-down{
     transition: all /* 1s linear */;

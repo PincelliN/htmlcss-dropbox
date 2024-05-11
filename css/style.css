@@ -214,6 +214,7 @@ h6 > hr {
 }
 .partner-team > h2 {
   font-size: xx-large;
+  
 }
 
 /* partner logo */
@@ -235,9 +236,9 @@ h6 > hr {
   justify-content: center;
   align-items: center;
   color: white;
-  width: 50%;
-  height: 50%;
-}
+   width: 50%;
+  height: 50%; 
+} 
 .logo-partner img {
   padding: 30px;
   width: 100%;
@@ -260,7 +261,7 @@ h6 > hr {
   width: 90px;
 }
 .logo-description > p {
-  height: 200px;
+  max-height: 200px;
   overflow-y: scroll;
 }
 /*  style svg */

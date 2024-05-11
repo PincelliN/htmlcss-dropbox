@@ -26,3 +26,26 @@ color: black;
    border-top: 1px solid black;
    
 }
+
+
+
+/* FAQ animation */
+.fa-chevron-down{
+    transition: all /* 1s linear */;
+}
+.faq-question div{
+    margin: 0 0;
+    padding: 0 0 ;
+}
+.difference {
+  display: none;
+  border-top:none ;
+  color: gray;
+  font-size: small;
+}
+.faq-question:hover .fa-chevron-down { 
+    transform: rotate(180deg); 
+}
+.faq-question:hover + .difference{
+   display: block;
+}

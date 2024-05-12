@@ -34,6 +34,7 @@ a {
 /* jumbotron */
 .jumbotron {
   background-color: rgb(180, 208, 231);
+  height: 600px;
 }
 .jumbotron h1 {
   text-align: start;
@@ -45,6 +46,7 @@ a {
 .jumbo-box {
   display: flex;
   justify-content: center;
+  align-items: center;
   max-width: 1200px;
   margin: 2% auto;
 }
@@ -56,6 +58,7 @@ a {
 }
 .jumbotron img {
   width: 110%;
+  margin-bottom:-30px;
 }
 .jumbotron section {
   margin-top: 50px;
@@ -118,7 +121,7 @@ h6 > hr {
 }
 .list-flex {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
 }
 .center-botton {
   text-align: center;
@@ -216,11 +219,6 @@ h6 > hr {
   font-size: xx-large;
   
 }
-
-
-
-
-
 
 /* partner logo */
 .logo-partner {

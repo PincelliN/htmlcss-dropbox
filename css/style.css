@@ -239,12 +239,13 @@ h6 > hr {
   justify-content: center;
   align-items: center;
   color: white;
-   width: 50%;
-  height: 50%; 
+  width: 50%;
+  aspect-ratio: 1/1;
 } 
 .logo-partner img {
   padding: 30px;
   width: 100%;
+  aspect-ratio: 1/1;
   filter: invert(1);
 }
 /*  colonna in mezzo della sezione logo */

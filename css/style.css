@@ -85,56 +85,72 @@ main > section {
   justify-content: space-between;
   gap: 20px;
 }
-.type-of-subscriptions h6 {
-  text-align: center;
-  padding: 10px 0;
-}
 .type-of-subscriptions > div {
   border: 1px solid black;
   width: calc(100% / 3);
+}
+/* header-subcription */
+.type-of-subscriptions h6 {
+  text-align: center;
+  padding: 10px 0;
 }
 h6 > hr {
   width: 100%;
   margin-top: 5px;
   margin: left 0;
 }
-.type-of-subscriptions ul {
-  margin: 0 auto;
-  padding: 10px;
+/* main-subcription */
+.main-subcription{
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-evenly;
+margin: 20px;
 }
-.subscriptions-list > * {
-  margin: 20px auto;
+.main-subcription>*{
+    margin-bottom: 10px;
 }
+  .subscriptions-list li  {
+ margin-bottom: 10px;
+} 
 .experience {
   font-size: larger;
   font-weight: bolder;
 }
-.money {
+.money{
   font-size: small;
   font-weight: bolder;
 }
 .duration {
   font-size: small;
   color: grey;
+  margin-bottom: 20px;
 }
 .list-flex {
   display: flex;
   align-items: baseline;
 }
-.center-botton {
-  text-align: center;
+.main-subcription .button {
+ margin: 10px auto;
+
+
 }
 .blue-link {
   color: blue;
   text-decoration: underline;
 }
+.half-row {
+  margin: 20px  ;
+  width: 20%;
+}
+/* footer-subcription */
 .fa-check {
   color: blue;
 }
-.half-row {
-  margin: auto 0;
-  width: 20%;
+.footer-subcription >* {
+  margin: 20px;
 }
+
 /*  LAST SUBSCRIPTION */
 .last-subscriptions {
   border: 1px solid black;
@@ -163,9 +179,12 @@ h6 > hr {
   max-width: 60%;
   min-width: 40%;
 }
-.last-subscriptions .button {
-  margin-left: 180px;
+.last-subscriptions-end{
+    display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
+
 /* Partnership */
 .partnership {
   display: flex;

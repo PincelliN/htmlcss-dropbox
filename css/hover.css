@@ -27,15 +27,13 @@ color: black;
    
 }
 
-.logo-img> div:hover{
+/*  logo ig active */
+.logo-img> div:active{
  border: 10px solid rgb(255, 255, 255, 0.4);
 }
 
 
-/* .logo-img img{
-  background-color: violet;
-}
- */
+
 
 
 
